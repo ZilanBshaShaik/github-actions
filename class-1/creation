@@ -1,0 +1,10 @@
+follow the below steps to create a selfhosted github runner
+-----------------------------------------------------------
+
+1. create an AWS EC2 instance try to use free one
+2. open port 80/(HTTP) and 443/(HTTPS) for inbound and outboubd traffic rules for that EC2 instance
+3. go to the settings tab of your GitHub
+4. left side you will see Action tab there you will find Runner now click on it 
+5. now you will find an option New self-hosted runner
+6. from the available options try to choose appropriate one and ensure that you should select correct architecture
+7. follow the steps show on GitHub and complete then you will be successfully addde your self hosted runner, for more details look at the attached PNG file
