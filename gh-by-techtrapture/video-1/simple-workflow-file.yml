@@ -1,0 +1,15 @@
+name: My awesome workflow # The name of your workflow
+
+on:
+  push: # This workflow will trigger on a push event
+
+jobs:
+  build: # the name of your job within the workflow
+  runs-on: ubuntu-latest # this will run on ubuntu runner
+
+  steps:
+    - uses: actions/checkout@v3 # checkout the code from the repository
+
+  # add additional steps here to perform actions withthin your workflow
+    - run: echo "Hello World! This is simple Github Actinos Workflow" # example step to print a message
+
