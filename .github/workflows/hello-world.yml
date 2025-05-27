@@ -1,8 +1,0 @@
-name: greeting
-on: workflow_dispatch
-jobs:
-  greet:
-     runs-on: ubuntu-latest
-     steps:
-       - name: "greet a user"
-         run: echo "welcome to github actions"
