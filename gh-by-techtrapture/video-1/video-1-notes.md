@@ -1,4 +1,4 @@
-What is Github actions?
+What are Github actions?
 Ans:- Github actions is continuous integration and continuous delivery {CI/CD} platform built directly on Github.
 It allows you to automate various task within your software development workflow.
 
