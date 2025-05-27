@@ -29,5 +29,5 @@ Ans:- An actions is custom application for the Github actions platforms that per
 use an action to help to reducse the amount of repetitive code that you write in your workflow files
 
 What are runners?
-Ans:- A runner is a server that runs your workflow when they're triggered.Each runner can run a single jon at a time.
+Ans:- A runner is a server that runs your workflow when they're triggered.Each runner can run a single job at a time.
 Github provides githosted runners also we can create self hosted runners to run our workflows 
