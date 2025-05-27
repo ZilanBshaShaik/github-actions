@@ -31,3 +31,18 @@ use an action to help to reducse the amount of repetitive code that you write in
 What are runners?
 Ans:- A runner is a server that runs your workflow when they're triggered.Each runner can run a single job at a time.
 Github provides githosted runners also we can create self hosted runners to run our workflows 
+
+
+🔁 Lifecycle of a Job in GitHub Actions
+Here’s what happens behind the scenes when a job runs:
+
+🧱 Set up job – Runner is assigned and prepared
+
+🔄 Run your defined steps – From your workflow YAML
+
+🧹 Post actions cleanup – Each uses: action may define cleanup
+
+🧼 Post job cleanup – Remove secrets, auth headers, temp config
+
+✅ Complete job – Finalizes status, logs, and environment teardown
+
